@@ -1,3 +1,6 @@
 [submodule "apps"]
 	path = apps
 	url = https://github.com/project-kona/apps
+[submodule "KCacheSim"]
+	path = KCacheSim
+	url = https://github.com/project-kona/KCacheSim
