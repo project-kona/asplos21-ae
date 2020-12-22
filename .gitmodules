@@ -4,3 +4,6 @@
 [submodule "KCacheSim"]
 	path = KCacheSim
 	url = https://github.com/project-kona/KCacheSim
+[submodule "KTracker"]
+	path = KTracker
+	url = https://github.com/project-kona/KTracker
