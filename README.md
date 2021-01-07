@@ -10,11 +10,15 @@ Clone the repository and submodules
 git clone --recurse-submodules https://github.com/project-kona/asplos21-ae.git  
 ```
 
+### Applications  
+
 Set up applications and download data sets.
 ```
 cd apps/scripts
 ./setup.sh
 ```
+
+### KTracker 
 
 Run all applications and produce the KTracker data. 
 ```
@@ -26,3 +30,18 @@ All output data and plots will be generated in the `results` directory.
 For each run, a new directory is created `res_<date>`.   
 The generated plots are in a `plots` directory, under this `res_<date>` directory (redis\_amplif.pdf and results\_wp.pdf).  
 
+### KCacheSim 
+
+
+Run all applications and produce the KCacheSim data.
+
+```
+cd KCacheSim  
+python3 ./scripts/sweep.py
+```
+
+Finally, generate all plots. All plots will be generated in `plots` directory.
+
+```
+python3 ./scripts/gather-results.py
+```
