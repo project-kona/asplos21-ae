@@ -8,6 +8,7 @@ It is best to launch everything inside a screen session.
 Clone the repository and submodules
 ```
 git clone --recurse-submodules https://github.com/project-kona/asplos21-ae.git  
+cd asplos21-ae
 ```
 
 ### Applications  
