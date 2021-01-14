@@ -33,16 +33,4 @@ The generated plots are in a `plots` directory, under this `res_<date>` director
 
 ### KCacheSim 
 
-
-Run all applications and produce the KCacheSim data.
-
-```
-cd KCacheSim  
-python3 ./scripts/sweep.py
-```
-
-Finally, generate all plots. All plots will be generated in `plots` directory.
-
-```
-python3 ./scripts/gather-results.py
-```
+Refer to instructions in [KCacheSim](https://github.com/project-kona/KCacheSim) repository.
