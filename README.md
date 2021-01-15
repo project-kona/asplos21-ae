@@ -2,7 +2,7 @@
 
 ## Instructions  
 These instructions have been tested on a clean Ubuntu 20.04 installation running on a CloudLab C6420 machine.  
-Make sure you have sudo access and at least 100GB free space for application datasets and logs.  
+Make sure you run everything on a bare-metal Linux server, that you have sudo access and at least 128 GB RAM and 100 GB free storage space for application datasets and logs.  
 It is best to launch everything inside a screen session.
 
 Clone the repository and submodules
@@ -13,7 +13,7 @@ cd asplos21-ae
 
 ### Applications  
 
-Set up applications and download data sets.
+Set up applications and download data sets. To do so, run the following from the asplos21-ae folder:
 ```
 cd apps/scripts
 ./setup.sh
@@ -21,7 +21,7 @@ cd apps/scripts
 
 ### KTracker 
 
-Run all applications and produce the KTracker data. 
+Run all applications and produce the KTracker data. To do so, run the following from the asplos21-ae folder: 
 ```
 cd KTracker/scripts  
 ./run_all.sh  
