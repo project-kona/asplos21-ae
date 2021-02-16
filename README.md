@@ -1,5 +1,7 @@
 # ASPLOS 2021 Artifacts
 
+These are the artifacts for the ASPLOS 2021 paper: [Rethinking Software Runtimes for Disaggregated Memory](https://asplos-conference.org/abstracts/asplos21-paper210-extended_abstract.pdf).
+
 ## Instructions  
 These instructions have been tested on a clean Ubuntu 20.04 installation running on a CloudLab C6420 machine.  
 Make sure you run everything on a bare-metal Linux server, that you have sudo access and at least 128 GB RAM and 100 GB free storage space for application datasets and logs.  
